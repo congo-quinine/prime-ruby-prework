@@ -1,5 +1,5 @@
 def prime?(number)
-  if number <= 0
+  if number <= 1
     return false
   end
   primeCheck = []
