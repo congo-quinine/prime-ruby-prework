@@ -14,9 +14,9 @@ end
 
 def checker(primeCheck)
   if primeCheck.size > 1
-    return "FALSE"
+    return false
   else
-    return "TRUE"
+    return true
   end
 end
 prime?(11)
