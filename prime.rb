@@ -1,7 +1,7 @@
 def prime?(number)
   if number < 0
     return "Please enter a positive integer"
-
+  end
   primeCheck = []
     for counter in 2..number do
         if number % counter == 0
